@@ -15,7 +15,7 @@ class CreateSelectsTable extends Migration
     {
         Schema::create('selects', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
+            $table->string('title')->unique();
             $table->string('optionA');
             $table->string('optionB');
             $table->string('optionC');

@@ -2,6 +2,7 @@
 
 namespace App\Admin\Controllers\Question;
 
+use App\Admin\Actions\Post\ImportSelect;
 use App\Question\Select;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
@@ -34,6 +35,11 @@ class SelectController extends AdminController
             $filter->like('title', '问题');
         });
 
+        $grid->tools(function (Grid\Tools $tools) {
+
+
+            $tools->append(new ImportSelect());
+        });
 
 
         $grid->column('id', __('编号'));

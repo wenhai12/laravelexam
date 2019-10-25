@@ -2,13 +2,12 @@
 
 namespace App\Admin\Actions\Post;
 
+use App\Question\Select;
 use Encore\Admin\Actions\Action;
 use Illuminate\Http\Request;
 use Rap2hpoutre\FastExcel\FastExcel;
-use App\User;
-use Encore\Admin\Grid;
-
-class ImportPost extends Action
+use Encore\Admin\Exception\Handler;
+class ImportSelect extends Action
 {
     public $name = '导入数据';
 
@@ -17,22 +16,35 @@ class ImportPost extends Action
     public function handle(Request $request)
     {
 
+
+
         // 下面的代码获取到上传的文件，然后使用`maatwebsite/excel`等包来处理上传你的文件，保存到数据库
         $file = $request->file('file');
-        $users = new FastExcel();
-        $user =$users->configureCsv(';', '#', '\n', 'gbk')->import($file, function($line) {
-            if (User::where('email', '=', $line['email'])->exists()) {
+//        $users = new FastExcel();
+        $user =fastexcel()->import($file, function($line) {
+
+            if (User::where('title', '=', $line['title'])->exists()) {
                 return $this->response()->error('导入失败！')->refresh();
             }else {
-                User::create([
-                    'name' => $line['name'],
-                    'email' => $line['email'],
-                    'password' => $line['password'],
+                Select::query()->create([
+                    'title' => $line['title'],
+                    'optionA' => $line['optionA'],
+                    'optionB' => $line['optionB'],
+                    'optionC' => $line['optionC'],
+                    'optionD' => $line['optionD'],
+                    'answer' => $line['answer'],
+                    'project_id' => $line['project_id'],
                 ]);
             }
-            return $this->response()->success('导入完成！')->refresh();
-
         });
+
+
+
+        return $this->response()->success('导入完成！')->refresh();
+
+
+
+
 
     }
 

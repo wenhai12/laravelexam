@@ -33,9 +33,7 @@ class UserController extends AdminController
         $grid->column('created_at', __('创建时间'));
         $grid->column('updated_at', __('更新时间'));
 
-        $grid->column('progress')->progressBar($style = 'primary', $size = 'sm', $max = 100);
         $grid->tools(function (Grid\Tools $tools) {
-
 
             $tools->append(new ImportPost());
         });
