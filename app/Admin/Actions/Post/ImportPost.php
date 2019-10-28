@@ -23,8 +23,7 @@ class ImportPost extends Action
         $file = $request->file('file');
         $users = new FastExcel();
         $user =$users->configureCsv(';', '#', '\n', 'gbk')->import($file, function($line) {
-
-                User::create([
+                User::query()->create([
                     'name' => $line['name'],
                     'email' => $line['email'],
                     'password' => $line['password'],
