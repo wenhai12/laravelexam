@@ -6,8 +6,8 @@ use Encore\Admin\Actions\Action;
 use Illuminate\Http\Request;
 use Rap2hpoutre\FastExcel\FastExcel;
 use App\User;
-use Encore\Admin\Grid;
 use Illuminate\Support\Facades\DB;
+
 class ImportPost extends Action
 {
     public $name = '导入数据';
@@ -17,26 +17,30 @@ class ImportPost extends Action
     public function handle(Request $request)
     {
 
-        // 下面的代码获取到上传的文件，然后使用`maatwebsite/excel`等包来处理上传你的文件，保存到数据库
         DB::beginTransaction();
-            try{
-        $file = $request->file('file');
-        $users = new FastExcel();
-        $user =$users->configureCsv(';', '#', '\n', 'gbk')->import($file, function($line) {
+        try{
+            $file = $request->file('file');
+            $user =fastexcel()->import($file, function($line) {
                 User::query()->create([
                     'name' => $line['name'],
                     'email' => $line['email'],
-                    'password' => $line['password'],
+                    'password' => bcrypt($line['password']),
                 ]);
+            });
+
             DB::commit();
             return $this->response()->success('导入完成！')->refresh();
 
-        });
-        }catch (\Exception $e){
+        }catch (\Exception $e ){
             DB::rollBack();
-                return $e->getmessage();
+            return $this->response()->error('导入失败！')->refresh();
+//            return $e->getmessage();
 
-            }
+        }
+
+
+
+
     }
 
     public function form()
