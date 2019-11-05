@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7d80cb-25be-43d3-aac0-0e48495b3a57" name="Default Changelist" comment="fix key">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Actions/Post/ImportPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Actions/Post/ImportPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Actions/Post/ImportSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Actions/Post/ImportSelect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,60 +46,124 @@
     <session id="1455317583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.102" value="1" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.112" value="1" />
+          <entry key="project.open.time.121" value="1" />
+          <entry key="project.open.time.131" value="1" />
+          <entry key="project.open.time.142" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.58" value="2" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="env" value="6" />
-          <entry key="php" value="1306" />
+          <entry key="dummy" value="5" />
+          <entry key="env" value="127" />
+          <entry key="php" value="2191" />
           <entry key="scss" value="12" />
           <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="6" />
-          <entry key="Blade" value="402" />
-          <entry key="PHP" value="904" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key=".env file" value="127" />
+          <entry key="Blade" value="807" />
+          <entry key="PHP" value="1384" />
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="SCSS" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="2" />
           <entry key="editorconfig" value="1" />
-          <entry key="env" value="1" />
+          <entry key="env" value="12" />
           <entry key="gif" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="29" />
-          <entry key="scss" value="1" />
-          <entry key="sql" value="1" />
+          <entry key="groovy" value="2" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="1" />
+          <entry key="lock" value="1" />
+          <entry key="php" value="204" />
+          <entry key="png" value="1" />
+          <entry key="scss" value="3" />
+          <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="1" />
-          <entry key="Blade" value="2" />
-          <entry key="Image" value="1" />
-          <entry key="PHP" value="27" />
+          <entry key=".env file" value="12" />
+          <entry key="Blade" value="50" />
+          <entry key="CSS" value="2" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="154" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="1" />
-          <entry key="Scratch" value="1" />
+          <entry key="SCSS" value="3" />
+          <entry key="Scratch" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4212">
+              <caret line="234" column="61" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../blog/config/wechat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="63" column="180" selection-start-line="63" selection-start-column="180" selection-end-line="63" selection-end-column="180" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="8" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>php</find>
+      <find>b</find>
+      <find>error</find>
+      <find>examcode</find>
+      <find>0</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -101,7 +173,7 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="3ebc6bc6-a97f-4b12-b82f-f98cb2d1f953" />
@@ -109,17 +181,41 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/Question/SelectController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_10_22_182066_create_selects_table.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/../blog/routes/web.php" />
         <option value="$PROJECT_DIR$/../blog/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/../blog/app/Http/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/../blog/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/../blog/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Admin/Actions/Post/ImportSelect.php" />
         <option value="$PROJECT_DIR$/app/Admin/Actions/Post/ImportPost.php" />
+        <option value="$PROJECT_DIR$/config/admin.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2019_10_29_032652_alter_users_add_avatar_column.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2019_10_29_032737_create_messages_table.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2019_10_29_032955_alter_users_add_api_token.php" />
+        <option value="$PROJECT_DIR$/../blog/app/User.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Http/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/../blog/routes/api.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Services/WebSocketHandler.php" />
+        <option value="$PROJECT_DIR$/../blog/routes/web.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/login.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Http/Requests/Backend/Article/CreateRequest.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/default/category_article.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/backend/alert/success.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/backend/article/create.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Http/Controllers/Backend/PageController.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2018_01_21_051956_create_exam_question_table.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2018_02_02_013517_create_examsubject_tabel.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2018_01_30_162452_create_exam_table.php" />
+        <option value="$PROJECT_DIR$/../blog/database/migrations/2018_01_20_142452_create_exam_table.php" />
+        <option value="$PROJECT_DIR$/../blog/app/Aexam.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/test/homepage.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/resources/views/admin/login.blade.php" />
+        <option value="$PROJECT_DIR$/../blog/.env" />
+        <option value="$PROJECT_DIR$/../blog/config/app.php" />
+        <option value="$PROJECT_DIR$/../blog/config/wechat.php" />
       </list>
     </option>
   </component>
@@ -131,9 +227,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/../blog/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/../blog/package.json" />
@@ -141,6 +234,7 @@
     </packageJsonPaths>
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/../blog/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -234,15 +328,18 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/log-viewer" />
+      <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/media-manager" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-2" />
+    <option name="y" value="-11" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -253,16 +350,12 @@
           <expand>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,7 +372,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,6 +385,23 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="prod" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prod" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -308,7 +418,17 @@
       <workItem from="1571896048279" duration="8716000" />
       <workItem from="1571983305671" duration="7557000" />
       <workItem from="1571996317593" duration="2761000" />
-      <workItem from="1572241573991" duration="1807000" />
+      <workItem from="1572241573991" duration="3172000" />
+      <workItem from="1572248686494" duration="2722000" />
+      <workItem from="1572311932320" duration="13114000" />
+      <workItem from="1572339965179" duration="1368000" />
+      <workItem from="1572341486807" duration="3704000" />
+      <workItem from="1572398295827" duration="9391000" />
+      <workItem from="1572484740258" duration="2278000" />
+      <workItem from="1572510619028" duration="961000" />
+      <workItem from="1572512357261" duration="875000" />
+      <workItem from="1572571047569" duration="613000" />
+      <workItem from="1572846676321" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="fix key">
       <created>1571822410446</created>
@@ -321,12 +441,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25468000" />
+    <option name="totallyTimeSpent" value="62451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.3139183" />
+      <window_info id="Structure" order="1" sideWeight="0.50213677" side_tool="true" weight="0.31240544" />
+      <window_info id="npm" order="2" sideWeight="0.50213677" side_tool="true" weight="0.31240544" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3207856" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" weight="0.23404256" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -340,14 +484,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.23404256" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924356" weight="0.23404256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -360,162 +504,78 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix key" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2553c74-082a-4eee-85f4-8b0b669aee92/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/Question/SelectController.php">
+    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/Backend/SystemController.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/default/hot.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/default/home.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Models/System.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Presenters/UserPresenter.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/backend/user/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/backend/user/edit.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/backend/user/create.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/default/comment/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Presenters/SystemPresenter.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/Backend/HomeController.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/Backend/PageController.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/auth/login.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/auth/register.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/seeds/teachersTableSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/seeds/usersTableSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/factories/UserFactory.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2018_02_19_022409_create_result_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2018_02_19_060000_create_ref_result_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2019_06_22_041514_create_exam_attempts_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/ExamAttempt.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/examsubject.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/fee.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/nextLevelSubject.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/ref_result.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Result.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Student.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/User.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Admin.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2018_01_20_142452_create_exam_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2018_01_21_051956_create_exam_question_table.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/app/Aexam.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/database/migrations/2018_02_02_013517_create_examsubject_tabel.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/test/homepage.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/homepage.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/routes/web.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/lang/en/validation.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/admin/login.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/lang/en/auth.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/lang/en/passwords.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/lang/en/pagination.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/../blog/config/excel.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/config/filesystems.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/resources/views/login.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../blog/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
+    <entry file="file://$PROJECT_DIR$/../blog/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="4212">
+          <caret line="234" column="61" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_22_182066_create_selects_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="223" column="4" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="162">
+          <caret line="9" column="8" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Console/ExtendCommand.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Exception/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/cache/packages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/cache/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/laravel-admin/bootstrap-fileinput/img/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Middleware/Authenticate.php">
+    <entry file="file://$PROJECT_DIR$/../blog/config/wechat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Middleware/EncryptCookies.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Middleware/CheckForMaintenanceMode.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/LoginController.php" />
-    <entry file="file://$PROJECT_DIR$/../blog/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="5" column="50" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/resources/views/login.blade.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Actions/Post/ImportSelect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Actions/Post/ImportPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="63" column="180" selection-start-line="63" selection-start-column="180" selection-end-line="63" selection-end-column="180" />
         </state>
       </provider>
     </entry>

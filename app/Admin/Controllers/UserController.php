@@ -72,7 +72,7 @@ class UserController extends AdminController
         $form->text('name', __('用户名'));
         $form->email('email', __('邮箱'));
         $form->password('password',__('密码'));
-//        $form->password('确认密码');
+
 
         return $form;
     }

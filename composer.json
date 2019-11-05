@@ -12,6 +12,7 @@
         "encore/laravel-admin": "^1.7",
         "fideloper/proxy": "^4.0",
         "laravel-admin-ext/log-viewer": "^1.0",
+        "laravel-admin-ext/media-manager": "^1.1",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "rap2hpoutre/fast-excel": "^1.3"

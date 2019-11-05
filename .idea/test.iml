@@ -25,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel-admin-ext/log-viewer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel-admin-ext/media-manager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem" />
@@ -97,6 +98,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="laravel" />
+    <orderEntry type="module" module-name="blog" />
+    <orderEntry type="module" module-name="blog" />
+    <orderEntry type="module" module-name="onlineExam" />
     <orderEntry type="module" module-name="blog" />
   </component>
 </module>

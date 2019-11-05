@@ -16,9 +16,6 @@ class ImportSelect extends Action
 
     public function handle(Request $request)
     {
-
-
-
         // 下面的代码获取到上传的文件，然后使用`maatwebsite/excel`等包来处理上传你的文件，保存到数据库
         DB::beginTransaction();
         try{
@@ -37,10 +34,11 @@ class ImportSelect extends Action
 
         DB::commit();
         return $this->response()->success('导入完成！')->refresh();
+
             }catch (\Exception $e ){
            DB::rollBack();
-//            return $this->response()->error('导入失败！')->refresh();
-            return $e->getmessage();
+            return $this->response()->error('导入失败！')->refresh();
+//            return $e->getmessage();
 
         }
 
